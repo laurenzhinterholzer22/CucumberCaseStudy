@@ -26,33 +26,33 @@ public class StepDefinitionsValidCostCalculation {
 //    public void user_is_navigated_to_homepage() {
 //        driver.navigate().to("http://localhost/cucumber/homepage.php");
 //    }
-//    @When("^user enters length (.*)$")
+//    @And("^user enters length (.*)$")
 //    public void user_enters_length(String length) {
 //        homePage = new HomePage(driver);
 //        homePage.enterLength(length);
 //    }
-//    @When("^user enters broad (.*)$")
+//    @And("^user enters broad (.*)$")
 //    public void user_enters_broad(String broad) {
 //        homePage.enterBroad(broad);
 //    }
-//    @When("^user enters height (.*)$")
+//    @And("^user enters height (.*)$")
 //    public void user_enters_height(String height) {
 //        homePage.enterHeight(height);
 //    }
 //
-//    @When("^user enters weight (.*)$")
+//    @And("^user enters weight (.*)$")
 //    public void user_enters_weight(String weight) {
 //        homePage.enterWeight(weight);
 //    }
-//    @When("^user enters senders location (.*)$")
+//    @And("^user enters senders location (.*)$")
 //    public void user_enters_senders_location(String senders_location) {
 //        homePage.enterSendersLocation(senders_location);
 //    }
-//    @When("^user enters receivers location (.*)$")
+//    @And("^user enters receivers location (.*)$")
 //    public void user_enters_receivers_location(String receivers_location) {
 //        homePage.enterReceiversLocation(receivers_location);
 //    }
-//        @When("user clicks on register package")
+//    @When("user clicks on register package")
 //    public void user_clicks_on_register_package() {
 //        homePage.clickRegisterPackage();
 //    }

@@ -26,16 +26,16 @@ public class StepDefinitionsValidPackageGirthValues {
 //    public void user_is_navigated_to_homepage() {
 //        driver.navigate().to("http://localhost/cucumber/homepage.php");
 //    }
-//    @When("^user enters length (.*)$")
+//    @Given("^user enters length (.*)$")
 //    public void user_enters_length(String length) {
 //        homePage = new HomePage(driver);
 //        homePage.enterLength(length);
 //    }
-//    @When("^user enters broad (.*)$")
+//    @Given("^user enters broad (.*)$")
 //    public void user_enters_broad(String broad) {
 //        homePage.enterBroad(broad);
 //    }
-//    @When("^user enters height (.*)$")
+//    @Given("^user enters height (.*)$")
 //    public void user_enters_height(String height) {
 //        homePage.enterHeight(height);
 //    }

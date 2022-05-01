@@ -1,5 +1,5 @@
 Feature: Discount of the packages between 01.07.2022 and 31.07.2022
-  In July the Packages should get an discount of 2€ per Package
+  In July the Packages should get a discount of 2€ per Package
 
   Rule: Discount between 01.07.2022 and 31.07.2022
 
@@ -12,3 +12,4 @@ Feature: Discount of the packages between 01.07.2022 and 31.07.2022
       Given today is 05.08.2020
       When user is registering a package
       Then user should not get a discount
+

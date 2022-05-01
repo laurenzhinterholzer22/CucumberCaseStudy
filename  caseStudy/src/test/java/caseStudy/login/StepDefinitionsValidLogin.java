@@ -32,7 +32,7 @@ public class StepDefinitionsValidLogin {
 //    }
 //
 //    // regex expression is necessary, the (.*) allows everything
-//    @When("^user enters (.*) and (.*)$")
+//    @Given("^user enters (.*) and (.*)$")
 //    public void user_enters_username_and_password (String username, String password) throws InterruptedException {
 //        loginPage = new LoginPage(driver);
 //        loginPage.enterUsername(username);

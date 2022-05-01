@@ -8,8 +8,8 @@ Feature: Are the Values of the Package valid?
 
 
     Scenario Outline: Check if the length of the package is valid
-      When user enters length <length>
-      And  clicks on register package
+      Given user enters length <length>
+      When  clicks on register package
       Then user is navigated to the package-register page
       And no error regarding the length should be shown
       Examples:
@@ -19,8 +19,8 @@ Feature: Are the Values of the Package valid?
         | 100    |
 
     Scenario Outline: Check if the broad of the package is valid
-      When user enters broad <broad>
-      And clicks on register package
+      Given user enters broad <broad>
+      When clicks on register package
       Then user is navigated to the package-register page
       And no error regarding the broad should be shown
       Examples:
@@ -30,8 +30,8 @@ Feature: Are the Values of the Package valid?
         | 100    |
 
     Scenario Outline: Check if the height of the package is valid
-      When user enters height <height>
-      And clicks on register package
+      Given user enters height <height>
+      When clicks on register package
       Then user is navigated to the package-register page
       And no error regarding the height should be shown
       Examples:
@@ -41,8 +41,8 @@ Feature: Are the Values of the Package valid?
         | 70      |
 
     Scenario Outline: Check if the weight of the package is valid
-      When user enters weight <weight>
-      And clicks on register package
+      Given user enters weight <weight>
+      When clicks on register package
       Then user is navigated to the package-register page
       And no error regarding the weight should be shown
       Examples:
@@ -52,8 +52,8 @@ Feature: Are the Values of the Package valid?
         | 40    |
 
     Scenario Outline: Check if the Senders Location of the package is valid
-      When user enters senders location <senders_location>
-      And clicks on register package
+      Given user enters senders location <senders_location>
+      When clicks on register package
       Then user is navigated to the package-register page
       And no error regarding the senders location should be shown
       Examples:
@@ -64,8 +64,8 @@ Feature: Are the Values of the Package valid?
 
 
     Scenario Outline: Check if the Receivers Location of the package is valid
-      When user enters receivers location <receivers_location>
-      And clicks on register package
+      Given user enters receivers location <receivers_location>
+      When clicks on register package
       Then user is navigated to the package-register page
       And no error regarding the receivers location should be shown
       Examples:

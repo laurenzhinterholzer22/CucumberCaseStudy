@@ -42,37 +42,37 @@ public class StepDefinitionsValidPackageValues {
     // Entering Values
     // -------------------------------------------------------------------------------------------
 
-    @When("^user enters length (.*)$")
+    @Given("^user enters length (.*)$")
     public void user_enters_length(String length) {
         homePage = new HomePage(driver);
         homePage.enterLength(length);
     }
 
-    @When("^user enters broad (.*)$")
+    @Given("^user enters broad (.*)$")
     public void user_enters_broad(String broad) {
         homePage = new HomePage(driver);
         homePage.enterBroad(broad);
     }
 
-    @When("^user enters height (.*)$")
+    @Given("^user enters height (.*)$")
     public void user_enters_height(String height) {
         homePage = new HomePage(driver);
         homePage.enterHeight(height);
     }
 
-    @When("^user enters weight (.*)$")
+    @Given("^user enters weight (.*)$")
     public void user_enters_weight(String weight) {
         homePage = new HomePage(driver);
         homePage.enterWeight(weight);
     }
 
-    @When("^user enters senders location (.*)$")
+    @Given("^user enters senders location (.*)$")
     public void user_enters_senders_location(String senders_location) {
         homePage = new HomePage(driver);
         homePage.enterSendersLocation(senders_location);
     }
 
-    @When("^user enters receivers location (.*)$")
+    @Given("^user enters receivers location (.*)$")
     public void user_enters_receivers_location(String receivers_location) {
         homePage = new HomePage(driver);
         homePage.enterReceiversLocation(receivers_location);
