@@ -10,13 +10,13 @@ Feature: Is the Cost Calculation of the Package valid?
   Scenario Outline: Check if the cost calculation of the package is valid
     Given browser is open
     And user is navigated to homepage
-    When user enters length <length>
+    And user enters length <length>
     And user enters broad <broad>
     And user enters height <height>
     And user enters weight <weight>
     And user enters senders location <senders_location>
     And user enters receivers location <receivers_location>
-    And user clicks on register package
+    When user clicks on register package
     Then user is navigated to the package-register page
     And the price <price> of the shipping of the package should be shown
     Examples:

@@ -4,17 +4,17 @@ Feature: Is the Girth of the Package valid?
 
   Scenario Outline: Check if the girth of the package is valid
     Given browser is open
-    And user is navigated to homepage
-    And user enters length <length>
-    And user enters broad <broad>
-    And user enters height <height>
+    * user is navigated to homepage
+    * user enters length <length>
+    * user enters broad <broad>
+    * user enters height <height>
     When user clicks on register package
     Then user is navigated to the package-register page
-    And no error regarding the girth should be shown
+    But no error regarding the girth should be shown
     Examples:
       | length | broad | height |
       | 10     | 10    | 10     |
       | 50     | 50    | 20     |
-      | 100    | 100   | 40     |
+      | 80    | 80   | 40     |
 
 

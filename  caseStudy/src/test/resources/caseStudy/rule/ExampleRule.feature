@@ -1,6 +1,7 @@
 Feature: Discount of the packages between 01.07.2022 and 31.07.2022
   In July the Packages should get a discount of 2€ per Package
 
+  @Smoke
   Rule: Discount between 01.07.2022 and 31.07.2022
 
     Example: Discount in July
